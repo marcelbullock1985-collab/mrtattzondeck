@@ -2,76 +2,81 @@ export default function Home() {
 return (
 <main className="min-h-screen bg-black text-white font-sans">
 
-{/* HERO SECTION */}
-<section className="flex flex-col items-center justify-center text-center py-24 px-6 bg-gradient-to-b from-black to-red-950">
-<h1 className="text-5xl md:text-7xl font-bold text-gold mb-6 tracking-widest">
-MrTattzOnDeck
+{/* HERO */}
+<section className="flex flex-col items-center justify-center text-center py-28 px-6 bg-gradient-to-b from-black via-zinc-900 to-black border-b border-yellow-600/20">
+
+<h1 className="text-5xl md:text-7xl font-extrabold tracking-widest text-yellow-500">
+Mr Tattz On Deck
 </h1>
-<p className="text-lg md:text-2xl text-gray-300 max-w-2xl">
-Luxury Urban Tattoo Experience. Custom Ink. VIP Sessions. Flash Events.
+
+<p className="mt-4 text-yellow-500 tracking-widest text-sm md:text-base">
+HOOD CERTIFIED • PROFESSIONAL STANDARD
 </p>
-<div className="mt-8 flex gap-4">
-<button className="bg-red-600 hover:bg-red-700 px-6 py-3 rounded-xl text-white font-semibold transition">
+
+<div className="h-1 w-32 bg-yellow-500 mt-6 mb-6"></div>
+
+<p className="text-lg md:text-xl text-zinc-300 max-w-2xl">
+Real Ink • Real Artists • No Gimmicks
+</p>
+
+<button className="mt-10 bg-yellow-500 text-black font-bold px-8 py-4 rounded-md hover:bg-yellow-400 transition duration-300">
 Book Appointment
 </button>
-<button className="border border-gold text-gold px-6 py-3 rounded-xl hover:bg-gold hover:text-black transition">
-View Portfolio
-</button>
-</div>
+
 </section>
 
 {/* SERVICES */}
-<section className="py-20 px-6 bg-black text-center">
-<h2 className="text-4xl font-bold text-gold mb-12">Services</h2>
+<section className="py-20 px-6 bg-zinc-950 text-center">
+<h2 className="text-4xl font-bold text-yellow-500 mb-12 tracking-wide">
+SERVICES
+</h2>
+
 <div className="grid md:grid-cols-3 gap-10">
 
-<div className="bg-zinc-900 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
-<h3 className="text-2xl font-semibold text-red-500 mb-4">Custom Tattoos</h3>
-<p className="text-gray-400">
-Fully personalized tattoo designs tailored to your vision.
+<div className="bg-black border border-yellow-600/20 p-8 rounded-lg hover:border-yellow-500 transition duration-300">
+<h3 className="text-2xl font-semibold text-yellow-500 mb-4">
+Custom Tattoos
+</h3>
+<p className="text-zinc-400">
+Fully custom pieces built around your vision. No copy-paste work.
 </p>
 </div>
 
-<div className="bg-zinc-900 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
-<h3 className="text-2xl font-semibold text-red-500 mb-4">VIP Sessions</h3>
-<p className="text-gray-400">
-Private luxury experience with priority booking and exclusive perks.
+<div className="bg-black border border-yellow-600/20 p-8 rounded-lg hover:border-yellow-500 transition duration-300">
+<h3 className="text-2xl font-semibold text-yellow-500 mb-4">
+Private Sessions
+</h3>
+<p className="text-zinc-400">
+Focused, distraction-free appointments for serious clients.
 </p>
 </div>
 
-<div className="bg-zinc-900 p-8 rounded-2xl shadow-lg hover:scale-105 transition">
-<h3 className="text-2xl font-semibold text-red-500 mb-4">Flash Events</h3>
-<p className="text-gray-400">
-Limited edition flash designs available during special event drops.
+<div className="bg-black border border-yellow-600/20 p-8 rounded-lg hover:border-yellow-500 transition duration-300">
+<h3 className="text-2xl font-semibold text-yellow-500 mb-4">
+Flash Drops
+</h3>
+<p className="text-zinc-400">
+Limited designs released at special events. First come, first inked.
 </p>
 </div>
 
 </div>
 </section>
 
-{/* LOYALTY */}
-<section className="py-20 px-6 bg-red-950 text-center">
-<h2 className="text-4xl font-bold text-gold mb-6">Loyalty Rewards</h2>
-<p className="text-gray-200 max-w-2xl mx-auto">
-Earn points for every session. Unlock discounts, priority booking,
-and exclusive access to members-only flash drops.
+{/* CLIENT STATUS */}
+<section className="py-20 px-6 bg-black text-center border-t border-yellow-600/20">
+<h2 className="text-4xl font-bold text-yellow-500 mb-6">
+CERTIFIED CLIENT STATUS
+</h2>
+<p className="text-zinc-400 max-w-2xl mx-auto">
+Loyalty rewards. Priority booking. Early access to flash.
+Built for clients who respect the craft.
 </p>
-</section>
-
-{/* CONTACT */}
-<section className="py-20 px-6 bg-black text-center">
-<h2 className="text-4xl font-bold text-gold mb-6">Book Now</h2>
-<p className="text-gray-400 mb-8">
-Ready to get inked? Secure your session today.
-</p>
-<button className="bg-red-600 hover:bg-red-700 px-8 py-4 rounded-xl text-white font-bold text-lg transition">
-Schedule Appointment
-</button>
 </section>
 
 {/* FOOTER */}
-<footer className="bg-zinc-950 py-8 text-center text-gray-500">
-© {new Date().getFullYear()} MrTattzOnDeck. All rights reserved.
+<footer className="bg-zinc-950 py-8 text-center text-zinc-500 text-sm">
+© {new Date().getFullYear()} Mr Tattz On Deck. All rights reserved.
 </footer>
 
 </main>
